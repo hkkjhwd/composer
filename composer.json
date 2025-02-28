@@ -1,0 +1,25 @@
+{
+    "name": "hwdzjz/composer",
+    "description": "test",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "files": ["src/core/functions.php"],
+        "psr-4": {
+            "Hwdzjz\\Composer\\": "src/",
+            "core\\":"src/core/",
+            "web\\":"src/web/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "hkkjhwd",
+            "email": "1678458211@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    }
+}
